@@ -1,0 +1,12 @@
+{
+  "name": "craft-board",
+  "description": "Track your Claude Code work in Craft Board (CPMS): asks whether to make a Kanban card, creates it In progress, clocks you in, and lets Claude read and update your projects as you.",
+  "version": "1.0.1",
+  "author": { "name": "Cyclomax" },
+  "mcpServers": {
+    "craft-board": {
+      "type": "http",
+      "url": "https://3.6.88.110/CPMS/api/mcp"
+    }
+  }
+}

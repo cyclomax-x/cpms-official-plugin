@@ -1,0 +1,20 @@
+{
+  "description": "Craft Board: remind Claude, once per session, to ask whether the work should be tracked as a card",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "resume|compact",
+        "hooks": [
+          { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/track-work.sh\" reset", "timeout": 10 }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/track-work.sh\" prompt", "timeout": 10 }
+        ]
+      }
+    ]
+  }
+}

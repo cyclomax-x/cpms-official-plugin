@@ -1,0 +1,13 @@
+{
+  "name": "cyclomax",
+  "owner": { "name": "Cyclomax" },
+  "metadata": { "description": "Cyclomax plugins for Claude Code" },
+  "plugins": [
+    {
+      "name": "craft-board",
+      "source": "./craft-board",
+      "description": "Track Claude Code work in Craft Board: asks whether to make a card, creates it In progress, clocks you in.",
+      "version": "1.0.1"
+    }
+  ]
+}
