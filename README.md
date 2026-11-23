@@ -1,7 +1,6 @@
 # Cyclomax plugins for Claude Code
 
-Public home of the Claude Code plugins for Craft Board (CPMS). The Craft Board app itself is in a private repository; this one holds only the plugin, so anyone can install it.
-
+Public home of the Claude Code plugins for Craft Board (CPMS).
 | Plugin | What it does |
 |---|---|
 | [`craft-board`](craft-board/README.md) | Track your Claude Code work on Craft Board cards and the time clock |
